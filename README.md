@@ -12,6 +12,18 @@
  ![image](https://user-images.githubusercontent.com/61559256/205565759-ef141287-a837-4751-98b6-23b24fbd7f3a.png)
 
 Become a chrome extension for all around 
+![image](https://user-images.githubusercontent.com/61559256/205566329-1de3ff64-a19d-4c1a-aa2b-b1daef3a8734.png)
+
+Feature:
+Full accessible with keyborard key and mouse .
+No signup or any detail needed to play
+Just added into chrome extension will allow you to play from anywhere on browser 
+
+Future Update :
+Working constantly on update the scoring system and change in collapsing system through shape
+Adding scoreboard and user info  setting to get the user highest score on their local
+
+
 Written mostly in CSS , JavaScript, HTML basics
 
  
