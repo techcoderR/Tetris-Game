@@ -1,0 +1,72 @@
+body {
+  background: #011627;
+}
+#level {
+  font-size: 14px;
+  width: 30px;
+  color: #FFFFFF;
+  background: #232323;
+  text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
+.leveling {
+  font-size: 15px; 
+  margin-left: 32px;
+  background-color: white;
+}
+#score {
+  font-size: 14px;
+  width: 50px;
+  background-color: white;
+  margin-bottom: 30;
+}
+.scoring {
+  font-size: 15px;
+  margin-left: auto;
+  background-color: white;
+}
+div {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+}
+#tetris {
+  background-color: white;
+}
+canvas {
+  display: block;
+  margin: 0 auto;
+  display: flex;
+ background: #011627;
+}
+#leftarrow {
+  padding: 3px 20px;
+}
+#rightarrow {
+  padding: 3px 20px;
+}
+#downarrow {
+  padding: 3px 40px;
+}
+#control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#increment {
+  background-color: white;
+}
+#decrement {
+  background-color: white;
+}
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leveling,.scoring,#level,#score,#increment,#decrement,#leftarrow,#rightarrow,#downarrow,#help{
+  color: #FFFFFF;
+  background: #232323;
+  text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}

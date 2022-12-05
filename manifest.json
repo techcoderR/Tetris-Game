@@ -1,0 +1,13 @@
+{
+        "name": "Tertis Game",
+        "version": "0.0.0.1",
+        "manifest_version": 3,
+        "action": {
+            "default_popup": "trend .html",
+            "default_icon": "tertis.png"
+        },
+        "icons": {
+            "128": "tertis.png"
+        },
+        "description": "Tetris Game with simple interface and easy control."
+}

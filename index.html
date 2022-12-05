@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tertis Game">
+    <title>Tetris Ball Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+   <!-- For level operation and Score Board -->
+    <div>
+      <span class="leveling" tabindex="-1">Level:</span>
+      <button aria-label="Decrement Buttom"id="decrement">-</button>
+      <input aria-label="level"type="number" class="textbox " value="1" id="level" />
+      <button aria-label="increment Button"id="increment">+</button>
+      <span class="scoring"tabindex="0">Score:</span>
+      <input aria-label="Score Board"type="number" class="textbox" disabled value="0" id="score" />
+      <button aria-label="Help Button"id="help">?</button>
+    </div>
+    <!-- tertis Block Code  -->
+    <canvas id="tetris" width="139" height="553"></canvas>
+    <!-- Control Block  -->
+    <div id="control">
+      <button aria-roledescription="left button" id="leftarrow">&#8592;</button>
+      <button aria-roledescription="downarrow" id="downarrow">V</button>
+      <button aria-roledescription="right Button"id="rightarrow">&#8594;</button>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
